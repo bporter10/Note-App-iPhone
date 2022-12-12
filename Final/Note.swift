@@ -14,4 +14,7 @@ class Note: NSManagedObject
     @NSManaged var title: String!
     @NSManaged var desc: String!
     @NSManaged var deletedDate: Date!
+    @NSManaged var username: String!
+    @NSManaged var password: String!
+    @NSManaged var notes: String!
 }
